@@ -24,7 +24,6 @@ double PIDCal(PID *pPID, double Point)
 	   
 	if (pPID->ActualPoint > pPID->UMAX)  
 	{  
-	   
 		if (fabs(Error) > 200.0)  
 		{  
 			index = 0;  
